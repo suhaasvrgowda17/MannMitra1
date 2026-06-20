@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "MannMitra"
+version = "1.0.0"
+id = "artifacts/mannmitra"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23324
+
+[services.development]
+run = "pnpm --filter @workspace/mannmitra run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mannmitra", "run", "build" ]
+publicDir = "artifacts/mannmitra/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23324"
+BASE_PATH = "/"

@@ -1,0 +1,262 @@
+# 🚀 MannMitra — AI Exam Wellness Companion (Ultimate Hackathon Prompt)
+
+## 🎯 Mission
+
+Build **MannMitra**, an AI-powered mental wellness platform for Indian exam aspirants (JEE, NEET, UPSC, GATE, CAT, CUET) that:
+
+* Understands emotional patterns from journaling
+* Detects hidden stress triggers
+* Predicts burnout before it happens
+* Acts as a deeply personalized AI companion
+
+---
+
+## 🧠 Core Philosophy
+
+> “Understand. Predict. Support.”
+
+The system must feel like:
+
+* A senior who cracked the exam
+* A daily emotional mirror
+* A silent safety net
+
+---
+
+## 🏷️ Brand Identity (MANDATORY)
+
+### App Name:
+
+**MannMitra**
+
+### Taglines (MUST be visible in UI):
+
+1. **“Feel Better. Perform Better.”**
+2. **“A Friend for Every Thought”**
+
+### Placement Rules:
+
+* Landing/Auth Page → Show **“Feel Better. Perform Better.”**
+* Chat/Companion Screen → Show **“A Friend for Every Thought”**
+* Optional: subtle footer branding across app
+
+👉 These must NOT be omitted or hidden
+
+---
+
+## ⚡ Core Differentiators (MANDATORY)
+
+### 1. 🌍 Vernacular Intelligence Layer
+
+* Support:
+
+  * Hindi, Tamil, Telugu, Kannada, Bengali
+* Input:
+
+  * Text + Voice journaling
+* AI:
+
+  * Analyze emotion in native language
+  * Detect stress type + intensity
+
+---
+
+### 2. 📊 Subject-Level Stress Heatmap
+
+* Extract:
+
+  * Subjects + events from journal
+* Visualize:
+
+  * Calendar heatmap
+  * Stress vs subject trends
+
+---
+
+### 3. 🔮 Burnout Prediction Engine
+
+* Analyze last 7–14 entries
+* Output:
+
+  * Risk level
+  * Preventive suggestions
+
+---
+
+### 4. 🆘 Silent SOS
+
+* Trigger via button or crisis detection
+* Notify trusted contact
+* Maintain calm UX tone
+
+---
+
+## 🤖 AI Companion Behavior (CRITICAL)
+
+AI must adapt tone based on stress:
+
+* Exam anxiety → structured help
+* Burnout → recovery focus
+* Comparison → reassurance
+* Family pressure → validation
+
+❌ No generic replies
+✅ Context-aware responses
+
+---
+
+## 🏗️ Tech Architecture
+
+### Backend
+
+* Node.js + Express
+* MongoDB (indexed)
+* JWT Auth (with expiry + refresh)
+* AES encryption
+
+Structure:
+
+* routes / controllers / services / models / middleware
+
+---
+
+### 🤖 AI Service Layer
+
+Centralized module:
+
+* analyzeJournal()
+* detectStressTriggers()
+* predictBurnout()
+* generateChatResponse()
+
+---
+
+### Frontend (React)
+
+Pages:
+
+1. Landing + Auth (with tagline)
+2. Home
+3. Journal
+4. Dashboard
+5. Chat (with tagline)
+6. SOS Settings
+
+---
+
+## 🔑 Authentication Requirement
+
+### Demo Credentials (MANDATORY)
+
+Display on login page:
+
+---
+
+🔐 Try Demo Account
+
+Email: [demo@mannmitra.com](mailto:demo@mannmitra.com)
+Password: Demo@123
+------------------
+
+Rules:
+
+* Always visible
+* Pre-seeded user
+* No hidden UI
+
+---
+
+## 🔐 Security
+
+* bcrypt hashing
+* AES encryption
+* Input validation
+* Rate limiting
+* Helmet.js
+* CORS policy
+* HTTPS-ready
+* Token lifecycle
+
+---
+
+## ⚡ Efficiency
+
+* Debounced AI calls
+* Lazy-loaded chat
+* Pagination
+* Indexed queries
+* AI caching
+* Background jobs
+
+---
+
+## 🧪 Testing
+
+* Jest + Supertest
+* Auth, CRUD, chat
+* Mock AI
+* Edge cases + security tests
+
+---
+
+## 🧹 Code Quality
+
+* ESLint + Prettier
+* Env configs
+* Clean architecture
+* Reusable components
+
+---
+
+## ♿ Accessibility
+
+* Voice journaling
+* Adjustable fonts
+* High contrast
+* Keyboard navigation
+* ARIA labels
+* Low-data mode
+
+---
+
+## 🎨 UI Design
+
+Theme:
+
+* Soft blue / green / off-white
+* Calm, friendly
+
+Brand:
+
+* MannMitra
+* Taglines must be consistently visible
+
+---
+
+## 🚀 Build Order
+
+1. Auth + DB (demo user)
+2. AI service
+3. Journal
+4. Dashboard
+5. Chat
+6. SOS
+7. Security
+8. Testing
+
+---
+
+## 🧠 Winning Strategy
+
+* Show insights, not just data
+* Make AI feel human
+* Focus on patterns
+* Keep UX simple
+
+---
+
+## 🏁 Final Goal
+
+Build something where a student says:
+
+> “This app understands me better than I understand myself.”
