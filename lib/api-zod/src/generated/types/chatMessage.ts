@@ -5,7 +5,11 @@
  * MannMitra API - AI Wellness Companion for Exam Aspirants
  * OpenAPI spec version: 0.1.0
  */
+import type { ChatMessageRole } from './chatMessageRole';
 
-export interface HealthStatus {
-  status: string;
+export interface ChatMessage {
+  id: number;
+  role: ChatMessageRole;
+  content: string;
+  createdAt: string;
 }

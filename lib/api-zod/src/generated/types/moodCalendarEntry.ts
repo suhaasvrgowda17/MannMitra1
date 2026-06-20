@@ -6,6 +6,9 @@
  * OpenAPI spec version: 0.1.0
  */
 
-export interface HealthStatus {
-  status: string;
+export interface MoodCalendarEntry {
+  date: string;
+  mood: number;
+  /** @nullable */
+  stressLevel?: string | null;
 }

@@ -1,0 +1,2 @@
+- [MannMitra auth flow](mannmitra-auth.md) — HMAC-SHA256 token, localStorage key `mannmitra_token`, setAuthTokenGetter wires all API calls
+- [MannMitra demo seed](mannmitra-demo-seed.md) — register via API not scripts (scripts can't import @workspace/db without tsconfig path support)

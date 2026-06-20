@@ -5,7 +5,11 @@
  * MannMitra API - AI Wellness Companion for Exam Aspirants
  * OpenAPI spec version: 0.1.0
  */
+import type { Journal } from './journal';
 
-export interface HealthStatus {
-  status: string;
+export interface JournalListResponse {
+  entries: Journal[];
+  total: number;
+  page: number;
+  limit: number;
 }
